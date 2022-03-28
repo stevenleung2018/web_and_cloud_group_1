@@ -4,4 +4,4 @@
 
 ### Contributors
 
-This GitHub repository was created by Joyce ,Macy Cha, Steven Leung, Zack Tang
+This GitHub repository was created by Joyce Wang,Macy Chan, Steven Leung, Zack Tang
