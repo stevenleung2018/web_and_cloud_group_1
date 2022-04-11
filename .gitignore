@@ -1,2 +1,4 @@
 figshare
 notebooks/combined_data.csv
+notebooks/.ipynb_checkpoints/
+**/.DS_Store
