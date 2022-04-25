@@ -8,9 +8,7 @@ import os
 app = Flask(__name__)
 
 # 1. Load your model here
-# @ Joyce, please comment the local path and change it to S3 path.   
-model = joblib.load( os.getcwd() + "/notebooks/milestone4/src/model.joblib")
-# model = joblib.load(" S3 model ")
+model = joblib.load("model.joblib")
 
 
 # 2. Define a prediction function
@@ -34,8 +32,8 @@ def index():
 @app.route("/predict", methods=["POST"])
 def rainfall_prediction():
     content = request.json  # this extracts the JSON content we sent
-    prediction = return_prediction(content)
-    results = prediction[0]  
+    prediction = return_prediction(content["data"])
+    results = {'prediction': prediction[0]}
     # return whatever data you wish, it can be just the prediction
     # or it can be the prediction plus the input data, it's up to you
     return jsonify(results)
