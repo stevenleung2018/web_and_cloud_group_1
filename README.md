@@ -17,7 +17,7 @@ The dataset is on [figshare](https://figshare.com/articles/dataset/Daily_rainfal
 
 ## Contributors
 
-This GitHub repository was created by Joyce Wang,Macy Chan, Steven Leung, Zack Tang
+This GitHub repository was created by Joyce Wang, Macy Chan, Steven Leung, Zack Tang
 
 
 ## License
